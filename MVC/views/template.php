@@ -9,16 +9,9 @@
     <header>
         <h1>Pagina</h1>    
     </header>
-    <nav>
-        <ul>
-            <li><a href="">inicio</a></li>
-            <li><a href="">nosotros</a></li>
-            <li><a href="">servicios</a></li>
-            <li><a href="">contactenos</a></li>
-        </ul>
-    </nav>
+    <?php include ("views/modeles/nav.php") ?>
     <section>
-        <h1>inicio</h1>
+        
     </section>
 </body>
 </html>
