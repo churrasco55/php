@@ -7,13 +7,15 @@
 </head>
 <body>
     <form action="index.php" method="get">
-        <input type="text" name="b" id="">
+        <input type="text" name="b">
         <input type="submit" name="a">
          
     </form>
     <?php    
-            $nombre = $_GET['b'];    
-            echo "Hola <b> $nombre</b>, Espero que estes muy bien!.";   
+            if(isset($_GET['a'])){
+                $nombre = $_GET['b'];    
+                echo "Hola <b> $nombre</b>, Espero que estes muy bien!.";   
+            }
         ?>   
 </body>
 </html>

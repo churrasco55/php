@@ -8,7 +8,7 @@
     $agua[] = "ads";
     $agua[9] = "pito";
 
-    rsort($agua);
+    sort($agua);
 
     for ($i=0;$i<count($agua);$i++) { 
         echo $agua[$i]."<br>";
